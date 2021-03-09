@@ -50,3 +50,4 @@ $TimerJson = $TimerPost | ConvertTo-Json
 $Timer = Invoke-RestMethod -Method Post -URI $TimerURL -Body $TimerJson -Headers $HTTPHeaders
 }
 }
+#Sean Graham
